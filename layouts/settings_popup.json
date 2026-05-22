@@ -1,0 +1,44 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#000000",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5,7",
+                "item_size": "128,64",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "playing_as_x",
+                        "playing_as_zero"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "5,7",
+                "item_size": "200,50",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "pickupsanity"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "5,7",
+                "item_size": "200,50",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "spaceportcleared"
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,312 @@
+{
+    "layouttabs": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Stage Select",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stage Select"
+                    ]
+                }
+            },
+            {
+                "title": "Sky Lagoon",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Lagoon Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Lagoon Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Web Spider",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Web Spider Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Web Spider Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Cyber Peacock",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cyber Peacock Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cyber Peacock Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Storm Owl",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Storm Owl Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Storm Owl Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Magma Dragoon",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Magma Dragoon Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Magma Dragoon Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Jet Stingray",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Jet Stingray Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Jet Stingray Area 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Jet Stingray Area 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Jet Stingray Area 4"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Split Mushroom",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Split Mushroom Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Split Mushroom Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Slash Beast",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Slash Beast Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Slash Beast Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Frost Walrus",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Frost Walrus Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Frost Walrus Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Memorial Hall",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Memorial Hall"
+                    ]
+                }
+            },
+            {
+                "title": "Space Port",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Space Port"
+                    ]
+                }
+            },
+            {
+                "title": "Final Weapon",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Final Weapon Area 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Final Weapon Area 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

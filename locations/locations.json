@@ -1,0 +1,2515 @@
+[
+    {
+        "name": "Stages",
+        "children": [
+            {
+                "name": "Sky Lagoon (Intro Stage)",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 175,
+                        "y": 120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Intro Boss Defeated",
+                        "item_count": 1,
+                        "codes": "@Intro Boss Defeated"
+                    },
+                    {
+                        "name": "Intro Stage Completed",
+                        "item_count": 1,
+                        "codes": "@Intro Stage Completed"
+                    },
+                    {
+                        "name": "Intro Stage Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Intro Stage Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Intro Stage Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Intro Stage Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Intro Stage 1 Up (1)",
+                        "item_count": 1,
+                        "codes": "@Intro Stage 1 Up (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Web Spider Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 52,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Web Spider Defeated",
+                        "item_count": 1,
+                        "codes": "@Web Spider Defeated"
+                    },
+                    {
+                        "name": "Web Spider Weapon",
+                        "item_count": 1,
+                        "codes": "@Web Spider Weapon"
+                    },
+                    {
+                        "name": "Web Spider Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Web Spider Heart Tank",
+                        "access_rules": [
+                            "playing_as_x,risingfire",
+                            "playing_as_zero,risingfire"
+                        ]
+                    },
+                    {
+                        "name": "Legs Upgrade",
+                        "item_count": 1,
+                        "codes": "@Legs Upgrade"
+                    },
+                    {
+                        "name": "Web Spider Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Web Spider Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Web Spider Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Web Spider Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "webspiderstageaccess"
+                ]
+            },
+            {
+                "name": "Cyber Peacock Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 131,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cyber Peacock Defeated",
+                        "item_count": 1,
+                        "codes": "@Cyber Peacock Defeated"
+                    },
+                    {
+                        "name": "Cyber Peacock Weapon",
+                        "item_count": 1,
+                        "codes": "@Cyber Peacock Weapon"
+                    },
+                    {
+                        "name": "Cyber Peacock Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Cyber Peacock Heart Tank",
+                        "visibility_rules": [
+                            "playing_as_x"
+                        ]
+                    },
+                    {
+                        "name": "Helmet Upgrade (2nd S-Rank)",
+                        "item_count": 1,
+                        "codes": "@Helmet Upgrade"
+                    },
+                    {
+                        "name": "Sub Tank (Re-enter, 2nd S-Rank)",
+                        "item_count": 1,
+                        "codes": "@Cyber Peacock Sub Tank",
+                        "visibility_rules": [
+                            "playing_as_x"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "cyberpeacockstageaccess"
+                ]
+            },
+            {
+                "name": "Storm Owl Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 218,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Storm Owl Defeated",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Defeated"
+                    },
+                    {
+                        "name": "Storm Owl Weapon",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Weapon"
+                    },
+                    {
+                        "name": "Storm Owl Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Heart Tank"
+                    },
+                    {
+                        "name": "Stock Charge Upgrade",
+                        "item_count": 1,
+                        "codes": "@Stock Charge Upgrade",
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_zero,doublecyclone"
+                        ]
+                    },
+                    {
+                        "name": "Plasma Shot Upgrade",
+                        "item_count": 1,
+                        "codes": "@Plasma Shot Upgrade",
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_zero,doublecyclone"
+                        ]
+                    },
+                    {
+                        "name": "Storm Owl Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Storm Owl Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "stormowlstageaccess"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 298,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Magma Dragoon Defeated",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Defeated"
+                    },
+                    {
+                        "name": "Magma Dragoon Weapon",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Weapon"
+                    },
+                    {
+                        "name": "Magma Dragoon Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Heart Tank",
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_zero,doublecyclone"
+                        ]
+                    },
+                    {
+                        "name": "Body Upgrade",
+                        "item_count": 1,
+                        "codes": "@Body Upgrade",
+                        "access_rules": [
+                            "playing_as_x,twinslasher,stockchargeupgrade",
+                            "playing_as_zero,twinslasher"
+                        ]
+                    },
+                    {
+                        "name": "Magma Dragoon Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Magma Dragoon Life Energy (2)",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Life Energy (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Magma Dragoon Life Energy (3)",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Life Energy (3)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "magmadragoonstageaccess"
+                ]
+            },
+            {
+                "name": "Jet Stingray Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 52,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Jet Stingray Defeated",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Defeated"
+                    },
+                    {
+                        "name": "Jet Stingray Weapon",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Weapon"
+                    },
+                    {
+                        "name": "Jet Stingray Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Heart Tank"
+                    },
+                    {
+                        "name": "Jet Stingray Sub Tank",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Sub Tank"
+                    },
+                    {
+                        "name": "Jet Stingray Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "jetstingraystageaccess"
+                ]
+            },
+            {
+                "name": "Split Mushroom Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 131,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Split Mushroom Defeated",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Defeated"
+                    },
+                    {
+                        "name": "Split Mushroom Weapon",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Weapon"
+                    },
+                    {
+                        "name": "Split Mushroom Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Heart Tank",
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_zero,doublecyclone"
+                        ]
+                    },
+                    {
+                        "name": "Split Mushroom Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Split Mushroom Weapon Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Weapon Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "splitmushroomstageaccess"
+                ]
+            },
+            {
+                "name": "Slash Beast Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 218,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Slash Beast Defeated",
+                        "item_count": 1,
+                        "codes": "@Slash Beast Defeated"
+                    },
+                    {
+                        "name": "Slash Beast Weapon",
+                        "item_count": 1,
+                        "codes": "@Slash Beast Weapon"
+                    },
+                    {
+                        "name": "Slash Beast Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Slash Beast Heart Tank"
+                    },
+                    {
+                        "name": "Slash Beast Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Slash Beast Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "slashbeaststageaccess"
+                ]
+            },
+            {
+                "name": "Frost Walrus Stage",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 298,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Frost Walrus Defeated",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Defeated"
+                    },
+                    {
+                        "name": "Frost Walrus Weapon",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Weapon"
+                    },
+                    {
+                        "name": "Frost Walrus Heart Tank",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Heart Tank",
+                        "access_rules": [
+                            "playing_as_x,risingfire",
+                            "playing_as_zero,risingfire"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Extra Lives Tank",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Extra Lives Tank",
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_zero,doublecyclone"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Weapon Tank",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Weapon Tank"
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (2)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus 1 Up (1)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus 1 Up (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (3)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (3)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (4)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (4)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (5)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (5)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (6)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (6)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (7)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (7)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Life Energy (8)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Life Energy (8)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus 1 Up (2)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus 1 Up (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Weapon Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Weapon Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Weapon Energy (2)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Weapon Energy (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Frost Walrus Max Weapon Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Max Weapon Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ]
+            },
+            {
+                "name": "Memorial Hall",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 50,
+                        "y": 228
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Memorial Hall Colonel Defeated",
+                        "item_count": 1,
+                        "codes": "@Memorial Hall Colonel Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_four_bosses_defeated"
+                ],
+                "visibility_rules": [
+                    "playing_as_x"
+                ]
+            },
+            {
+                "name": "Space Port",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 130,
+                        "y": 228
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Space Port Colonel Defeated",
+                        "item_count": 1,
+                        "codes": "@Space Port Colonel Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_all_bosses_defeated"
+                ]
+            },
+            {
+                "name": "Final Weapon",
+                "map_locations": [
+                    {
+                        "map": "Stage Select",
+                        "x": 220,
+                        "y": 228
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Double and Iris Defeated",
+                        "item_count": 1,
+                        "codes": "@Double / Iris Defeated"
+                    },
+                    {
+                        "name": "General Defeated",
+                        "item_count": 1,
+                        "codes": "@General Defeated"
+                    },
+                    {
+                        "name": "Web Spider Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Web Spider Rematch Defeated"
+                    },
+                    {
+                        "name": "Cyber Peacock Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Cyber Peacock Rematch Defeated"
+                    },
+                    {
+                        "name": "Storm Owl Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Storm Owl Rematch Defeated"
+                    },
+                    {
+                        "name": "Magma Dragoon Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Magma Dragoon Rematch Defeated"
+                    },
+                    {
+                        "name": "Jet Stingray Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Jet Stingray Rematch Defeated"
+                    },
+                    {
+                        "name": "Split Mushroom Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Split Mushroom Rematch Defeated"
+                    },
+                    {
+                        "name": "Slash Beast Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Slash Beast Rematch Defeated"
+                    },
+                    {
+                        "name": "Frost Walrus Rematch Defeated",
+                        "item_count": 1,
+                        "codes": "@Frost Walrus Rematch Defeated"
+                    },
+                    {
+                        "name": "Sigma Defeated",
+                        "item_count": 1,
+                        "codes": "@Sigma Defeated"
+                    },
+                    {
+                        "name": "Final Weapon Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Max Life Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Max Life Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Max Life Energy (2)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Max Life Energy (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Max Life Energy (3)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Max Life Energy (3)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Life Energy (2)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Life Energy (2)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Life Energy (Boss Rush)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Life Energy (Boss Rush)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Weapon Energy (Boss Rush)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Weapon Energy (Boss Rush)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Max Life Energy (4)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Max Life Energy (4)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Max Weapon Energy (1)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Max Weapon Energy (1)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    },
+                    {
+                        "name": "Final Weapon Life Energy (3)",
+                        "item_count": 1,
+                        "codes": "@Final Weapon Life Energy (3)",
+                        "visibility_rules": [
+                            "pickupsanity"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky Lagoon (Intro Stage)",
+        "children": [
+            {
+                "name": "Intro Boss Defeated",
+                "map_locations": [
+                    {
+                        "map": "Sky Lagoon Area 2",
+                        "x": 4741,
+                        "y": 123,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Sky Lagoon (Intro Stage)/Intro Boss Defeated"
+                    },
+                    {
+                        "ref": "Stages/Sky Lagoon (Intro Stage)/Intro Stage Completed"
+                    }
+                ]
+            },
+            {
+                "name": "Intro Stage Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Sky Lagoon Area 2",
+                        "x": 1165,
+                        "y": 181,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Sky Lagoon (Intro Stage)/Intro Stage Life Energy (1)"
+                    }
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Intro Stage Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Sky Lagoon Area 2",
+                        "x": 3680,
+                        "y": 713,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Sky Lagoon (Intro Stage)/Intro Stage Max Life Energy (1)"
+                    }
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Intro Stage 1 Up (1)",
+                "map_locations": [
+                    {
+                        "map": "Sky Lagoon Area 2",
+                        "x": 3804,
+                        "y": 713,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Sky Lagoon (Intro Stage)/Intro Stage 1 Up (1)"
+                    }
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Web Spider Stage",
+        "children": [
+            {
+                "name": "Web Spider Defeated",
+                "map_locations": [
+                    {
+                        "map": "Web Spider Area 2",
+                        "x": 4842,
+                        "y": 1194,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Web Spider Stage/Web Spider Defeated"
+                    },
+                    {
+                        "ref": "Stages/Web Spider Stage/Web Spider Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "webspiderstageaccess"
+                ]
+            },
+            {
+                "name": "Web Spider Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Web Spider Area 2",
+                        "x": 3009,
+                        "y": 1161,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Web Spider Stage/Web Spider Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,risingfire",
+                    "playing_as_zero,risingfire"
+                ]
+            },
+            {
+                "name": "Legs Upgrade",
+                "map_locations": [
+                    {
+                        "map": "Web Spider Area 1",
+                        "x": 2479,
+                        "y": 1154,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Web Spider Stage/Legs Upgrade"
+                    }
+                ],
+                "access_rules": [
+                    "webspiderstageaccess"
+                ]
+            },
+            {
+                "name": "Web Spider Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Web Spider Area 2",
+                        "x": 1857,
+                        "y": 1140,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Web Spider Stage/Web Spider Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "webspiderstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Web Spider Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Web Spider Area 2",
+                        "x": 3631,
+                        "y": 1201,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Web Spider Stage/Web Spider Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "webspiderstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cyber Peacock Stage",
+        "children": [
+            {
+                "name": "Cyber Peacock Defeated",
+                "map_locations": [
+                    {
+                        "map": "Cyber Peacock Area 2",
+                        "x": 3716,
+                        "y": 691,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Cyber Peacock Stage/Cyber Peacock Defeated"
+                    },
+                    {
+                        "ref": "Stages/Cyber Peacock Stage/Cyber Peacock Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "cyberpeacockstageaccess"
+                ]
+            },
+            {
+                "name": "Cyber Peacock Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Cyber Peacock Area 1",
+                        "x": 2611,
+                        "y": 1879,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Cyber Peacock Stage/Cyber Peacock Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "cyberpeacockstageaccess"
+                ],
+                "visibility_rules": [
+                    "playing_as_x"
+                ]
+            },
+            {
+                "name": "Helmet Upgrade (2nd S-Rank)",
+                "map_locations": [
+                    {
+                        "map": "Cyber Peacock Area 1",
+                        "x": 2686,
+                        "y": 1851,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Cyber Peacock Stage/Helmet Upgrade (2nd S-Rank)"
+                    }
+                ],
+                "access_rules": [
+                    "cyberpeacockstageaccess"
+                ]
+            },
+            {
+                "name": "Sub Tank (Re-enter, 2nd S-Rank)",
+                "map_locations": [
+                    {
+                        "map": "Cyber Peacock Area 1",
+                        "x": 2771,
+                        "y": 1881,
+                        "size": 30,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Cyber Peacock Stage/Sub Tank (Re-enter, 2nd S-Rank)"
+                    }
+                ],
+                "access_rules": [
+                    "cyberpeacockstageaccess"
+                ],
+                "visibility_rules": [
+                    "playing_as_x"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Storm Owl Stage",
+        "children": [
+            {
+                "name": "Storm Owl Defeated",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 2",
+                        "x": 2331,
+                        "y": 35,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Storm Owl Defeated"
+                    },
+                    {
+                        "ref": "Stages/Storm Owl Stage/Storm Owl Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "stormowlstageaccess"
+                ]
+            },
+            {
+                "name": "Storm Owl Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 1",
+                        "x": 2793,
+                        "y": 351,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Storm Owl Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "stormowlstageaccess"
+                ]
+            },
+            {
+                "name": "Stock Charge Upgrade",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 2",
+                        "x": 1800,
+                        "y": 164,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Stock Charge Upgrade"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,lightningweb",
+                    "playing_as_zero,doublecyclone"
+                ]
+            },
+            {
+                "name": "Plasma Shot Upgrade",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 2",
+                        "x": 1448,
+                        "y": 164,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Plasma Shot Upgrade"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,lightningweb",
+                    "playing_as_zero,doublecyclone"
+                ]
+            },
+            {
+                "name": "Storm Owl Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 1",
+                        "x": 1948,
+                        "y": 86,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Storm Owl Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "stormowlstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Storm Owl Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Storm Owl Area 2",
+                        "x": 2702,
+                        "y": 287,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Storm Owl Stage/Storm Owl Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "stormowlstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magma Dragoon Stage",
+        "children": [
+            {
+                "name": "Magma Dragoon Defeated",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 2",
+                        "x": 5390,
+                        "y": 368,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Defeated"
+                    },
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "magmadragoonstageaccess"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 2",
+                        "x": 1529,
+                        "y": 82,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,lightningweb",
+                    "playing_as_zero,doublecyclone"
+                ]
+            },
+            {
+                "name": "Body Upgrade",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 2",
+                        "x": 3331,
+                        "y": 149,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Body Upgrade"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,twinslasher,stockchargeupgrade",
+                    "playing_as_zero,twinslasher"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 1",
+                        "x": 1795,
+                        "y": 387,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "magmadragoonstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Life Energy (2)",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 1",
+                        "x": 3173,
+                        "y": 458,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Life Energy (2)"
+                    }
+                ],
+                "access_rules": [
+                    "magmadragoonstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Life Energy (3)",
+                "map_locations": [
+                    {
+                        "map": "Magma Dragoon Area 2",
+                        "x": 1704,
+                        "y": 372,
+                        "size": 36,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Magma Dragoon Stage/Magma Dragoon Life Energy (3)"
+                    }
+                ],
+                "access_rules": [
+                    "magmadragoonstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jet Stingray Stage",
+        "children": [
+            {
+                "name": "Jet Stingray Defeated",
+                "map_locations": [
+                    {
+                        "map": "Jet Stingray Area 4",
+                        "x": 8549,
+                        "y": 243,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Jet Stingray Stage/Jet Stingray Defeated"
+                    },
+                    {
+                        "ref": "Stages/Jet Stingray Stage/Jet Stingray Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "jetstingraystageaccess"
+                ]
+            },
+            {
+                "name": "Jet Stingray Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Jet Stingray Area 2",
+                        "x": 546,
+                        "y": 181,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Jet Stingray Stage/Jet Stingray Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "jetstingraystageaccess"
+                ]
+            },
+            {
+                "name": "Jet Stingray Sub Tank",
+                "map_locations": [
+                    {
+                        "map": "Jet Stingray Area 4",
+                        "x": 6863,
+                        "y": 49,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Jet Stingray Stage/Jet Stingray Sub Tank"
+                    }
+                ],
+                "access_rules": [
+                    "jetstingraystageaccess"
+                ]
+            },
+            {
+                "name": "Jet Stingray Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Jet Stingray Area 4",
+                        "x": 8279,
+                        "y": 172,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Jet Stingray Stage/Jet Stingray Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "jetstingraystageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Split Mushroom Stage",
+        "children": [
+            {
+                "name": "Split Mushroom Defeated",
+                "map_locations": [
+                    {
+                        "map": "Split Mushroom Area 2",
+                        "x": 1455,
+                        "y": 204,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Split Mushroom Stage/Split Mushroom Defeated"
+                    },
+                    {
+                        "ref": "Stages/Split Mushroom Stage/Split Mushroom Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "splitmushroomstageaccess"
+                ]
+            },
+            {
+                "name": "Split Mushroom Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Split Mushroom Area 2",
+                        "x": 186,
+                        "y": 2010,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Split Mushroom Stage/Split Mushroom Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,lightningweb",
+                    "playing_as_zero,doublecyclone"
+                ]
+            },
+            {
+                "name": "Split Mushroom Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Split Mushroom Area 2",
+                        "x": 1416,
+                        "y": 355,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Split Mushroom Stage/Split Mushroom Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "splitmushroomstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Split Mushroom Weapon Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Split Mushroom Area 2",
+                        "x": 1545,
+                        "y": 357,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Split Mushroom Stage/Split Mushroom Weapon Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "splitmushroomstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Slash Beast Stage",
+        "children": [
+            {
+                "name": "Slash Beast Defeated",
+                "map_locations": [
+                    {
+                        "map": "Slash Beast Area 2",
+                        "x": 9188,
+                        "y": 462,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Slash Beast Stage/Slash Beast Defeated"
+                    },
+                    {
+                        "ref": "Stages/Slash Beast Stage/Slash Beast Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "slashbeaststageaccess"
+                ]
+            },
+            {
+                "name": "Slash Beast Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Slash Beast Area 2",
+                        "x": 3568,
+                        "y": 175,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Slash Beast Stage/Slash Beast Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "slashbeaststageaccess"
+                ]
+            },
+            {
+                "name": "Slash Beast Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Slash Beast Area 2",
+                        "x": 7502,
+                        "y": 196,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Slash Beast Stage/Slash Beast Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "slashbeaststageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frost Walrus Stage",
+        "children": [
+            {
+                "name": "Frost Walrus Defeated",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 2",
+                        "x": 7164,
+                        "y": 400,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Defeated"
+                    },
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Weapon"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ]
+            },
+            {
+                "name": "Frost Walrus Heart Tank",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1104,
+                        "y": 417,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Heart Tank"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,risingfire",
+                    "playing_as_zero,risingfire"
+                ]
+            },
+            {
+                "name": "Frost Walrus Extra Lives Tank",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 5567,
+                        "y": 406,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Extra Lives Tank"
+                    }
+                ],
+                "access_rules": [
+                    "playing_as_x,lightningweb",
+                    "playing_as_zero,doublecyclone"
+                ]
+            },
+            {
+                "name": "Frost Walrus Weapon Tank",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 2",
+                        "x": 2328,
+                        "y": 301,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Weapon Tank"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1014,
+                        "y": 206,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (2)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1059,
+                        "y": 206,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (2)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus 1 Up (1)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1213,
+                        "y": 33,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus 1 Up (1)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (3)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1272,
+                        "y": 89,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (3)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (4)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1321,
+                        "y": 110,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (4)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (5)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1362,
+                        "y": 110,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (5)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (6)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1500,
+                        "y": 57,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (6)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (7)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1537,
+                        "y": 57,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (7)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Life Energy (8)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1573,
+                        "y": 57,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Life Energy (8)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus 1 Up (2)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 1268,
+                        "y": 394,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus 1 Up (2)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 4417,
+                        "y": 1144,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Weapon Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 851,
+                        "y": 206,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Weapon Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Weapon Energy (2)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 1",
+                        "x": 879,
+                        "y": 206,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Weapon Energy (2)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Frost Walrus Max Weapon Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Frost Walrus Area 2",
+                        "x": 6245,
+                        "y": 435,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Frost Walrus Stage/Frost Walrus Max Weapon Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "frostwalrusstageaccess"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Memorial Hall",
+        "children": [
+            {
+                "name": "Memorial Hall Colonel Defeated",
+                "map_locations": [
+                    {
+                        "map": "Memorial Hall",
+                        "x": 850,
+                        "y": 167,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Memorial Hall/Memorial Hall Colonel Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_four_bosses_defeated"
+                ],
+                "visibility_rules": [
+                    "playing_as_x"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Space Port",
+        "children": [
+            {
+                "name": "Space Port Colonel Defeated",
+                "map_locations": [
+                    {
+                        "map": "Space Port",
+                        "x": 4407,
+                        "y": 175,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Space Port/Space Port Colonel Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_all_bosses_defeated"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Final Weapon",
+        "children": [
+            {
+                "name": "Double and Iris Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 1",
+                        "x": 1968,
+                        "y": 124,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Double and Iris Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "General Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 1",
+                        "x": 5507,
+                        "y": 325,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/General Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Web Spider Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1377,
+                        "y": 863,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Web Spider Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Cyber Peacock Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1440,
+                        "y": 971,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Cyber Peacock Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Storm Owl Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1775,
+                        "y": 971,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Storm Owl Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Magma Dragoon Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1838,
+                        "y": 863,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Magma Dragoon Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Jet Stingray Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1502,
+                        "y": 1090,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Jet Stingray Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Split Mushroom Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1536,
+                        "y": 1200,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Split Mushroom Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Slash Beast Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1673,
+                        "y": 1200,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Slash Beast Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Frost Walrus Rematch Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1716,
+                        "y": 1090,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Frost Walrus Rematch Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Sigma Defeated",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1775,
+                        "y": 1893,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Sigma Defeated"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ]
+            },
+            {
+                "name": "Final Weapon Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 1",
+                        "x": 4111,
+                        "y": 315,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Max Life Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 1",
+                        "x": 4880,
+                        "y": 343,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Max Life Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Max Life Energy (2)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 1",
+                        "x": 4863,
+                        "y": 183,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Max Life Energy (2)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Max Life Energy (3)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 692,
+                        "y": 109,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Max Life Energy (3)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Life Energy (2)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 868,
+                        "y": 126,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Life Energy (2)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Life Energy (Boss Rush)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1534,
+                        "y": 847,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Life Energy (Boss Rush)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Weapon Energy (Boss Rush)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1678,
+                        "y": 847,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Weapon Energy (Boss Rush)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Max Life Energy (4)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 837,
+                        "y": 1733,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Max Life Energy (4)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Max Weapon Energy (1)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 955,
+                        "y": 1733,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Max Weapon Energy (1)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            },
+            {
+                "name": "Final Weapon Life Energy (3)",
+                "map_locations": [
+                    {
+                        "map": "Final Weapon Area 2",
+                        "x": 1326,
+                        "y": 2010,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ],
+                "sections": [
+                    {
+                        "ref": "Stages/Final Weapon/Final Weapon Life Energy (3)"
+                    }
+                ],
+                "access_rules": [
+                    "$has_space_port_cleared"
+                ],
+                "visibility_rules": [
+                    "pickupsanity"
+                ]
+            }
+        ]
+    }
+]

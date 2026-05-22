@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Stage Select",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/Mega Man X4-Select_Screen.png"
+    },
+    {
+        "name": "Sky Lagoon Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/SkyLagoon-Area1.png"
+    },
+    {
+        "name": "Sky Lagoon Area 2",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/SkyLagoon-Area2.png"
+    },
+    {
+        "name": "Web Spider Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/WebSpider-Area1.png"
+    },
+    {
+        "name": "Web Spider Area 2",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/WebSpider-Area2.png"
+    },
+    {
+        "name": "Cyber Peacock Area 1",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/CyberPeacock-Area1.png"
+    },
+    {
+        "name": "Cyber Peacock Area 2",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/CyberPeacock-Area2.png"
+    },
+    {
+        "name": "Storm Owl Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/StormOwl-Area1.png"
+    },
+    {
+        "name": "Storm Owl Area 2",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/StormOwl-Area2.png"
+    },
+    {
+        "name": "Magma Dragoon Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/MagmaDragoon-Area1.png"
+    },
+    {
+        "name": "Magma Dragoon Area 2",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/MagmaDragoon-Area2.png"
+    },
+    {
+        "name": "Jet Stingray Area 1",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/JetStingray-Area1.png"
+    },
+    {
+        "name": "Jet Stingray Area 2",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/JetStingray-Area2.png"
+    },
+    {
+        "name": "Jet Stingray Area 3",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/JetStingray-Area3.png"
+    },
+    {
+        "name": "Jet Stingray Area 4",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/JetStingray-Area4.png"
+    },
+    {
+        "name": "Split Mushroom Area 1",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/SplitMushroom-Area1.png"
+    },
+    {
+        "name": "Split Mushroom Area 2",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/SplitMushroom-Area2.png"
+    },
+    {
+        "name": "Slash Beast Area 1",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/SlashBeast-Area1.png"
+    },
+    {
+        "name": "Slash Beast Area 2",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/SlashBeast-Area2.png"
+    },
+    {
+        "name": "Frost Walrus Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/FrostWalrus-Area1.png"
+    },
+    {
+        "name": "Frost Walrus Area 2",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/FrostWalrus-Area2.png"
+    },
+    {
+        "name": "Memorial Hall",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/MemorialHall.png"
+    },
+    {
+        "name": "Space Port",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/SpacePort.png"
+    },
+    {
+        "name": "Final Weapon Area 1",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/FinalWeapon-Area1.png"
+    },
+    {
+        "name": "Final Weapon Area 2",
+        "location_size": 18,
+        "location_border_thickness": 2,
+        "img": "images/maps/FinalWeapon-Area2.png"
+    }
+]

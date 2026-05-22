@@ -1,0 +1,63 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Mavericks",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "maverick_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Weapons",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "weapons_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Armor (X Only)",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "armor_grid"
+                            },
+                            "access_rules": [
+                                "playing_as_x"
+                            ]
+                        },
+                        {
+                            "type": "group",
+                            "header": "Tanks",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tanks_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "layouttabs"
+                    }
+                }
+            ]
+        }
+    }
+}

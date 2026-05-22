@@ -1,0 +1,73 @@
+{
+    "weapons_grid": {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 40,
+        "h_alignment": "left",
+        "rows": [
+            [
+                "lightningweb",
+                "aiminglaser",
+                "doublecyclone",
+                "risingfire"
+            ],
+            [
+                "groundhunter",
+                "soulbody",
+                "twinslasher",
+                "frosttower"
+            ]
+        ]
+    },
+    "armor_grid": {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 40,
+        "h_alignment": "left",
+        "rows": [
+            [
+                "helmetupgrade",
+                "bodyupgrade",
+                "plasmashotupgrade"
+            ],
+            [
+                "stockchargeupgrade",
+                "legsupgrade"
+            ]
+        ]
+    },
+    "maverick_grid": {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 56,
+        "h_alignment": "left",
+        "rows": [
+            [
+                "webspiderstageaccess",
+                "cyberpeacockstageaccess",
+                "stormowlstageaccess",
+                "magmadragoonstageaccess"
+            ],
+            [
+                "jetstingraystageaccess",
+                "splitmushroomstageaccess",
+                "slashbeaststageaccess",
+                "frostwalrusstageaccess"
+            ]
+        ]
+    },
+    "tanks_grid": {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 48,
+        "h_alignment": "left",
+        "rows": [
+            [
+                "hearttank",
+                "subtank",
+                "weaponenergytank",
+                "extralivestank"
+            ]
+        ]
+    }
+}

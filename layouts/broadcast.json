@@ -1,0 +1,46 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "3,3",
+                "item_size": 36,
+                "rows": [
+                    [
+                        "webspiderstageaccess",
+                        "cyberpeacockstageaccess",
+                        "stormowlstageaccess",
+                        "magmadragoonstageaccess"
+                    ],
+                    [
+                        "jetstingraystageaccess",
+                        "splitmushroomstageaccess",
+                        "slashbeaststageaccess",
+                        "frostwalrusstageaccess"
+                    ],
+                    [
+                        "lightningweb",
+                        "aiminglaser",
+                        "doublecyclone",
+                        "risingfire"
+                    ],
+                    [
+                        "groundhunter",
+                        "soulbody",
+                        "twinslasher",
+                        "frosttower"
+                    ],
+                    [
+                        "hearttank",
+                        "subtank",
+                        "weaponenergytank",
+                        "extralivestank"
+                    ]
+                ]
+            }
+        ]
+    }
+}

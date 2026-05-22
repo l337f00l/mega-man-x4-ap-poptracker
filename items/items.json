@@ -1,0 +1,440 @@
+[
+    {
+        "name": "Update",
+        "type": "toggle",
+        "allow_disabled": false,
+        "loop": true,
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "update"
+    },
+    {
+        "name": "Web Spider",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Web Spider - Locked",
+                "img": "images/items/mmx4_web_spider_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Web Spider - Access",
+                "img": "images/items/mmx4_web_spider.png",
+                "codes": "webspiderstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Web Spider - Defeated",
+                "img": "images/items/mmx4_web_spider_defeated.png",
+                "codes": "webspiderstageaccess,webspiderdefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cyber Peacock",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cyber Peacock - Locked",
+                "img": "images/items/mmx4_cyber_peacock_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cyber Peacock - Access",
+                "img": "images/items/mmx4_cyber_peacock.png",
+                "codes": "cyberpeacockstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cyber Peacock - Defeated",
+                "img": "images/items/mmx4_cyber_peacock_defeated.png",
+                "codes": "cyberpeacockstageaccess,cyberpeacockdefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Storm Owl",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Storm Owl - Locked",
+                "img": "images/items/mmx4_storm_owl_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Storm Owl - Access",
+                "img": "images/items/mmx4_storm_owl.png",
+                "codes": "stormowlstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Storm Owl - Defeated",
+                "img": "images/items/mmx4_storm_owl_defeated.png",
+                "codes": "stormowlstageaccess,stormowldefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magma Dragoon",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Magma Dragoon - Locked",
+                "img": "images/items/mmx4_magma_dragoon_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magma Dragoon - Access",
+                "img": "images/items/mmx4_magma_dragoon.png",
+                "codes": "magmadragoonstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magma Dragoon - Defeated",
+                "img": "images/items/mmx4_magma_dragoon_defeated.png",
+                "codes": "magmadragoonstageaccess,magmadragoondefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Jet Stingray",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Jet Stingray - Locked",
+                "img": "images/items/mmx4_jet_stingray_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jet Stingray - Access",
+                "img": "images/items/mmx4_jet_stingray.png",
+                "codes": "jetstingraystageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jet Stingray - Defeated",
+                "img": "images/items/mmx4_jet_stingray_defeated.png",
+                "codes": "jetstingraystageaccess,jetstingraydefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Split Mushroom",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Split Mushroom - Locked",
+                "img": "images/items/mmx4_split_mushroom_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Mushroom - Access",
+                "img": "images/items/mmx4_split_mushroom.png",
+                "codes": "splitmushroomstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Mushroom - Defeated",
+                "img": "images/items/mmx4_split_mushroom_defeated.png",
+                "codes": "splitmushroomstageaccess,splitmushroomdefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Slash Beast",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Slash Beast - Locked",
+                "img": "images/items/mmx4_slash_beast_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slash Beast - Access",
+                "img": "images/items/mmx4_slash_beast.png",
+                "codes": "slashbeaststageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slash Beast - Defeated",
+                "img": "images/items/mmx4_slash_beast_defeated.png",
+                "codes": "slashbeaststageaccess,slashbeastdefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Frost Walrus",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Frost Walrus - Locked",
+                "img": "images/items/mmx4_frost_walrus_off.png",
+                "codes": "",
+                "inherit_codes": false
+            },
+            {
+                "name": "Frost Walrus - Access",
+                "img": "images/items/mmx4_frost_walrus.png",
+                "codes": "frostwalrusstageaccess",
+                "inherit_codes": false
+            },
+            {
+                "name": "Frost Walrus - Defeated",
+                "img": "images/items/mmx4_frost_walrus_defeated.png",
+                "codes": "frostwalrusstageaccess,frostwalrusdefeated",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Blank",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "blank"
+    },
+    {
+        "name": "Playing as Zero",
+        "type": "toggle",
+        "img": "images/settings/Zero_on.png",
+        "disabled_img": "images/settings/Zero_off.png",
+        "codes": "playing_as_zero"
+    },
+    {
+        "name": "Playing as X",
+        "type": "toggle",
+        "img": "images/settings/X_on.png",
+        "disabled_img": "images/settings/X_off.png",
+        "codes": "playing_as_x"
+    },
+    {
+        "name": "Pickupsanity",
+        "type": "toggle",
+        "img": "images/settings/pickupsanity_on.png",
+        "disabled_img": "images/settings/pickupsanity_off.png",
+        "codes": "pickupsanity"
+    },
+    {
+        "name": "Lightning Web",
+        "type": "toggle",
+        "img": "images/items/lightning_web_on.png",
+        "disabled_img": "images/items/lightning_web_off.png",
+        "codes": "lightningweb"
+    },
+    {
+        "name": "Aiming Laser",
+        "type": "toggle",
+        "img": "images/items/aiming_laser_on.png",
+        "disabled_img": "images/items/aiming_laser_off.png",
+        "codes": "aiminglaser"
+    },
+    {
+        "name": "Double Cyclone",
+        "type": "toggle",
+        "img": "images/items/double_cyclone_on.png",
+        "disabled_img": "images/items/double_cyclone_off.png",
+        "codes": "doublecyclone"
+    },
+    {
+        "name": "Rising Fire",
+        "type": "toggle",
+        "img": "images/items/rising_fire_on.png",
+        "disabled_img": "images/items/rising_fire_off.png",
+        "codes": "risingfire"
+    },
+    {
+        "name": "Ground Hunter",
+        "type": "toggle",
+        "img": "images/items/ground_hunter_on.png",
+        "disabled_img": "images/items/ground_hunter_off.png",
+        "codes": "groundhunter"
+    },
+    {
+        "name": "Soul Body",
+        "type": "toggle",
+        "img": "images/items/soul_body_on.png",
+        "disabled_img": "images/items/soul_body_off.png",
+        "codes": "soulbody"
+    },
+    {
+        "name": "Twin Slasher",
+        "type": "toggle",
+        "img": "images/items/twin_slasher_on.png",
+        "disabled_img": "images/items/twin_slasher_off.png",
+        "codes": "twinslasher"
+    },
+    {
+        "name": "Frost Tower",
+        "type": "toggle",
+        "img": "images/items/frost_tower_on.png",
+        "disabled_img": "images/items/frost_tower_off.png",
+        "codes": "frosttower"
+    },
+    {
+        "name": "Helmet Upgrade",
+        "type": "toggle",
+        "img": "images/items/helmet.png",
+        "disabled_img": "images/items/helmet_gray.png",
+        "codes": "helmetupgrade"
+    },
+    {
+        "name": "Body Upgrade",
+        "type": "toggle",
+        "img": "images/items/body.png",
+        "disabled_img": "images/items/body_gray.png",
+        "codes": "bodyupgrade"
+    },
+    {
+        "name": "Plasma Shot Upgrade",
+        "type": "toggle",
+        "img": "images/items/arms.png",
+        "disabled_img": "images/items/arms_gray.png",
+        "codes": "plasmashotupgrade"
+    },
+    {
+        "name": "Stock Charge Upgrade",
+        "type": "toggle",
+        "img": "images/items/arms2.png",
+        "disabled_img": "images/items/arms_gray.png",
+        "codes": "stockchargeupgrade"
+    },
+    {
+        "name": "Legs Upgrade",
+        "type": "toggle",
+        "img": "images/items/legs.png",
+        "disabled_img": "images/items/legs_gray.png",
+        "codes": "legsupgrade"
+    },
+    {
+        "name": "Small Energy",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "smallenergy"
+    },
+    {
+        "name": "Large Energy",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "largeenergy"
+    },
+    {
+        "name": "Small Weapon Energy",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "smallweaponenergy"
+    },
+    {
+        "name": "Large Weapon Energy",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "largeweaponenergy"
+    },
+    {
+        "name": "Extra Life",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "extralife"
+    },
+    {
+        "name": "Victory",
+        "type": "toggle",
+        "img": "images/items/boss_defeated_x.png",
+        "disabled_img": "images/items/boss_defeated_x.png",
+        "codes": "victory"
+    },
+    {
+        "name": "Heart Tank",
+        "type": "consumable",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 24,
+        "overlay_background": "#A0000000",
+        "img": "images/items/mmx4_heart_tank.png",
+        "disabled_img": "images/items/mmx4_heart_tank_off.png",
+        "codes": "hearttank"
+    },
+    {
+        "name": "Energy Sub Tank",
+        "type": "consumable",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 24,
+        "overlay_background": "#A0000000",
+        "img": "images/items/mmx4_energy_tank.png",
+        "disabled_img": "images/items/mmx4_energy_tank_off.png",
+        "codes": "subtank"
+    },
+    {
+        "name": "Weapon Energy Tank",
+        "type": "consumable",
+        "max_quantity": 1,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 24,
+        "overlay_background": "#A0000000",
+        "img": "images/items/mmx4_weapons_tank.png",
+        "disabled_img": "images/items/mmx4_weapons_tank_off.png",
+        "codes": "weaponenergytank"
+    },
+    {
+        "name": "Extra Lives Tank",
+        "type": "consumable",
+        "max_quantity": 1,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 24,
+        "overlay_background": "#A0000000",
+        "img": "images/items/mmx4_ex_life_tank.png",
+        "disabled_img": "images/items/mmx4_ex_life_tank_off.png",
+        "codes": "extralivestank"
+    },
+    {
+        "name": "Space Port Cleared",
+        "type": "toggle",
+        "img": "images/items/mmx4_jet_stingray_defeated.png",
+        "disabled_img": "images/items/mmx4_jet_stingray_off.png",
+        "codes": "spaceportcleared",
+        "allow_disabled": true
+    }
+]
