@@ -3,6 +3,7 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 
 CUR_INDEX = -1
+ITEM_COUNTS = {}
 --SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
@@ -238,9 +239,9 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
-    -- Reset CUR_INDEX so AP will re-send all items via AddItemHandler
-    -- (AP re-sends all previously received items automatically after onClear)
+    -- Reset counters so item counts start fresh for this session
     CUR_INDEX = -1
+    ITEM_COUNTS = {}
 
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
@@ -262,17 +263,14 @@ end
 
 function onItem(index, item_id, item_name, player_number)
     if index <= CUR_INDEX then
-        print(string.format("[MMX4] onItem SKIPPED: index=%s CUR_INDEX=%s item=%s", index, CUR_INDEX, item_name))
         return
     end
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
     local item = ITEM_MAPPING[item_id]
     if not item or not item[1] then
-        print(string.format("[MMX4] onItem NO MAPPING: id=%s name=%s", item_id, item_name))
         return
     end
-    print(string.format("[MMX4] onItem PROCESSING: index=%s id=%s name=%s", index, item_id, item_name))
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
@@ -282,12 +280,12 @@ function onItem(index, item_id, item_name, player_number)
                 -- print("toggle")
                 item_obj.Active = true
             elseif item_obj.Type == "progressive" then
-                local before_ac = item_obj.AcquiredCount
-                local before_cs = item_obj.CurrentStage
-                -- Try both properties - one of them controls the visual stage
-                item_obj.AcquiredCount = item_obj.AcquiredCount + 1
-                item_obj.CurrentStage = item_obj.CurrentStage + 1
-                print(string.format("[MMX4] progressive %s: AC %s->%s CS %s->%s", item_code, before_ac, item_obj.AcquiredCount, before_cs, item_obj.CurrentStage))
+                -- Use ITEM_COUNTS to track total receives, then SET stage directly
+                -- This avoids autosave inflation (set is idempotent, += is not)
+                if ITEM_COUNTS == nil then ITEM_COUNTS = {} end
+                ITEM_COUNTS[item_code] = (ITEM_COUNTS[item_code] or 0) + 1
+                local target_stage = ITEM_COUNTS[item_code]
+                item_obj.CurrentStage = target_stage
             elseif item_obj.Type == "consumable" then
                 -- print("consumable")
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
@@ -335,7 +333,6 @@ function onLocation(location_id, location_name)
         local flag = Tracker:FindObjectForCode("spaceportcleared")
         if flag then
             flag.Active = true
-            print("[MMX4] Space Port Colonel cleared via AP - Final Weapon unlocked")
         end
     end
 end
