@@ -69,3 +69,6 @@ function CreateLuaManualStorageItem(name)
     self.LoadFunc = LoadManualLocationStorageFunc
     return self
 end
+
+-- Create the manual location storage item at load time
+CreateLuaManualStorageItem("manual_location_storage")

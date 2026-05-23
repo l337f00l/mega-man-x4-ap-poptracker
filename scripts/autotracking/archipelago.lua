@@ -172,17 +172,21 @@ end
 
 function onClear(slot_data)
     MANUAL_CHECKED = false
-    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+    local storage_obj = Tracker:FindObjectForCode("manual_location_storage")
+    local custom_storage_item = nil
+    if storage_obj ~= nil then
+        custom_storage_item = storage_obj.ItemState
+    end
     if custom_storage_item == nil then
-        CreateLuaManualStorageItem("manual_location_storage")
-        custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+        -- Storage item not available, use empty table as fallback
+        custom_storage_item = { MANUAL_LOCATIONS = { ["default"] = {} }, MANUAL_LOCATIONS_ORDER = {} }
     end
     -- repeat that here for every cache-storage item you create just to be save
     
     preOnClear()
     
     ScriptHost:RemoveWatchForCode("StateChanged")
-    ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
+    -- RemoveOnLocationSectionHandler not supported in this PopTracker version
     --SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -204,34 +208,16 @@ function onClear(slot_data)
             end
         end
     end
-    -- reset items
-    for _, item_array in pairs(ITEM_MAPPING) do
-        for _, item_pair in pairs(item_array) do
-            item_code = item_pair[1]
-            item_type = item_pair[2]
-            -- print("on clear", item_code, item_type)
-            local item_obj = Tracker:FindObjectForCode(item_code)
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    item_obj.Active = false
-                elseif item_obj.Type == "progressive" then
-                    item_obj.CurrentStage = 0
-                elseif item_obj.Type == "consumable" then
-                    if item_obj.MinCount then
-                        item_obj.AcquiredCount = item_obj.MinCount
-                    else
-                        item_obj.AcquiredCount = 0
-                    end
-                elseif item_obj.Type == "progressive_toggle" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
-                end
-            end
-        end
-    end
+    -- Note: item reset removed. AP re-sends all received items via onItem
+    -- after onClear completes. Resetting here causes items to be wiped
+    -- after onItem already set them (due to BulkUpdate deferral order).
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
+
+    -- Note: The MMX4 APWorld does not expose character or pickupsanity in slot data.
+    -- These must be set manually in the Settings popup.
+    -- Slot data contains: death_link, damage_link, energy_link, TotalLocations, Seed, Slot
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end
@@ -252,21 +238,41 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+    -- Reset CUR_INDEX so AP will re-send all items via AddItemHandler
+    -- (AP re-sends all previously received items automatically after onClear)
+    CUR_INDEX = -1
+
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
 end
 
+function OnFrameHandler()
+    -- Remove self immediately to prevent repeated calls
+    ScriptHost:RemoveOnFrameHandler("load handler")
+    -- Register manual location section handler for ongoing manual tracking
+    -- AddOnLocationSectionHandler not supported in this PopTracker version
+    -- Process checked locations to mark them as cleared on reconnect
+    for _, location_id in ipairs(Archipelago.CheckedLocations) do
+        local ok, err = pcall(onLocation, location_id, "")
+        if not ok then
+            print(string.format("OnFrameHandler: error processing location %s: %s", location_id, err))
+        end
+    end
+end
+
 function onItem(index, item_id, item_name, player_number)
     if index <= CUR_INDEX then
+        print(string.format("[MMX4] onItem SKIPPED: index=%s CUR_INDEX=%s item=%s", index, CUR_INDEX, item_name))
         return
     end
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
     local item = ITEM_MAPPING[item_id]
     if not item or not item[1] then
-        --print(string.format("onItem: could not find item mapping for id %s", item_id))
+        print(string.format("[MMX4] onItem NO MAPPING: id=%s name=%s", item_id, item_name))
         return
     end
+    print(string.format("[MMX4] onItem PROCESSING: index=%s id=%s name=%s", index, item_id, item_name))
     for _, item_pair in pairs(item) do
         item_code = item_pair[1]
         item_type = item_pair[2]
@@ -276,12 +282,12 @@ function onItem(index, item_id, item_name, player_number)
                 -- print("toggle")
                 item_obj.Active = true
             elseif item_obj.Type == "progressive" then
-                -- print("progressive")
-                if item_obj.Active == true then
-                    item_obj.CurrentStage = item_obj.CurrentStage + 1
-                else
-                    item_obj.Active = true
-                end
+                local before_ac = item_obj.AcquiredCount
+                local before_cs = item_obj.CurrentStage
+                -- Try both properties - one of them controls the visual stage
+                item_obj.AcquiredCount = item_obj.AcquiredCount + 1
+                item_obj.CurrentStage = item_obj.CurrentStage + 1
+                print(string.format("[MMX4] progressive %s: AC %s->%s CS %s->%s", item_code, before_ac, item_obj.AcquiredCount, before_cs, item_obj.CurrentStage))
             elseif item_obj.Type == "consumable" then
                 -- print("consumable")
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
@@ -310,10 +316,11 @@ function onLocation(location_id, location_name)
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-        -- print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
-                location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
+                if location_obj.AvailableChestCount ~= nil then
+                    location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
+                end
             else
                 location_obj.Active = true
             end
@@ -424,9 +431,9 @@ end
 
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
--- Archipelago:AddClearHandler("clear handler", onClearHandler)
--- Archipelago:AddItemHandler("item handler", onItem)
--- Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddClearHandler("clear handler", onClearHandler)
+Archipelago:AddItemHandler("item handler", onItem)
+Archipelago:AddLocationHandler("location handler", onLocation)
 
 -- Archipelago:AddSetReplyHandler("notify handler", OnNotify)
 -- Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)

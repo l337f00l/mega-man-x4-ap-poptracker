@@ -432,8 +432,8 @@
     {
         "name": "Space Port Cleared",
         "type": "toggle",
-        "img": "images/items/mmx4_jet_stingray_defeated.png",
-        "disabled_img": "images/items/mmx4_jet_stingray_off.png",
+        "img": "images/settings/SpacePort_on.png",
+        "disabled_img": "images/settings/SpacePort_off.png",
         "codes": "spaceportcleared",
         "allow_disabled": true
     }

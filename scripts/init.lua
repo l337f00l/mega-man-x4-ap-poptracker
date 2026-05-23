@@ -26,6 +26,9 @@ Tracker:AddLayouts("layouts/layouttabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
+-- Lua items (must load before autotracking to define CreateLuaManualStorageItem)
+ScriptHost:LoadScript("scripts/luaitems.lua")
+
 -- AutoTracking
 if PopVersion and PopVersion >= "0.26.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
