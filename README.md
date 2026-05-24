@@ -16,6 +16,9 @@ Detects and tracks all logic as of Mega Man X4 V0.1.1 including:
 - Heart Tanks, Energy Tanks, Weapon Tank and EX Life Tank
 - Armor Upgrades 
 - X or Zero in Settings, it is a manual click for now
+
+You'll notice a Sigma Head in the Settings, that is for offline testing of what happens when you clear Space Port which just
+opens up Final Weapon.  If you are connected to an AP and you clear Space Port then Final Weapon will open up automatically.
   
 Includes individual stage maps showing item locations.  Some items in certain stages require certain weapons to be able to get.
 For example in Web Spider to get the Heart Tank it requires Magma Dragoon's weapon on either X or Zero.
