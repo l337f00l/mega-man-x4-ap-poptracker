@@ -40,6 +40,25 @@
                         "extralivestank"
                     ]
                 ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "3,3",
+                "item_size": 36,
+                "visibility_rules": [
+                    "playing_as_x"
+                ],
+                "rows": [
+                    [
+                        "helmetupgrade",
+                        "bodyupgrade",
+                        "plasmashotupgrade",
+                        "stockchargeupgrade"
+                    ],
+                    [
+                        "legsupgrade"
+                    ]
+                ]
             }
         ]
     }
