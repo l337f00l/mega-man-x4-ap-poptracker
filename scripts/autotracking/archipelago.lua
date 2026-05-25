@@ -304,6 +304,20 @@ function onItem(index, item_id, item_name, player_number)
 end
 
 --called when a location gets cleared
+
+-- Boss defeated location ID -> progressive stage access code
+-- Only the 8 Mavericks - Intro Boss (14574100) is NOT a Maverick, excluded
+BOSS_DEFEATED_LOCATIONS = {
+    [14574104] = "webspiderstageaccess",      -- Web Spider Defeated
+    [14574109] = "cyberpeacockstageaccess",   -- Cyber Peacock Defeated
+    [14574114] = "stormowlstageaccess",       -- Storm Owl Defeated
+    [14574118] = "magmadragoonstageaccess",   -- Magma Dragoon Defeated
+    [14574122] = "jetstingraystageaccess",    -- Jet Stingray Defeated
+    [14574125] = "splitmushroomstageaccess",  -- Split Mushroom Defeated
+    [14574128] = "slashbeaststageaccess",     -- Slash Beast Defeated
+    [14574133] = "frostwalrusstageaccess",    -- Frost Walrus Defeated
+}
+
 function onLocation(location_id, location_name)
     MANUAL_CHECKED = false
     local location_array = LOCATION_MAPPING[location_id]
@@ -327,6 +341,18 @@ function onLocation(location_id, location_name)
         end
     end
     MANUAL_CHECKED = true
+
+    -- Advance Maverick progressive to stage 2 (defeated) when boss defeated location received
+    local boss_code = BOSS_DEFEATED_LOCATIONS[location_id]
+    if boss_code then
+        local item_obj = Tracker:FindObjectForCode(boss_code)
+        if item_obj and item_obj.CurrentStage < 2 then
+            item_obj.CurrentStage = 2
+            -- Keep ITEM_COUNTS in sync
+            if ITEM_COUNTS == nil then ITEM_COUNTS = {} end
+            ITEM_COUNTS[boss_code] = 2
+        end
+    end
 
     -- Auto-set spaceportcleared when Space Port Colonel Defeated arrives via AP
     if location_id == 14574136 then
