@@ -96,7 +96,12 @@ end
 
 function onClearHandler(slot_data)
     local clear_timer = os.clock()
-    
+
+    -- Reset item counts BEFORE BulkUpdate so onItem starts from a clean slate
+    -- This prevents autosave/previous session counts from inflating stages
+    ITEM_COUNTS = {}
+    CUR_INDEX = -1
+
     ScriptHost:RemoveWatchForCode("StateChange")
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
@@ -239,9 +244,7 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
-    -- Reset counters so item counts start fresh for this session
-    CUR_INDEX = -1
-    ITEM_COUNTS = {}
+    -- Note: CUR_INDEX and ITEM_COUNTS are reset in onClearHandler before BulkUpdate
 
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
@@ -287,8 +290,11 @@ function onItem(index, item_id, item_name, player_number)
                 local target_stage = ITEM_COUNTS[item_code]
                 item_obj.CurrentStage = target_stage
             elseif item_obj.Type == "consumable" then
-                -- print("consumable")
-                item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
+                -- Use ITEM_COUNTS to SET AcquiredCount directly (prevents autosave inflation)
+                if ITEM_COUNTS == nil then ITEM_COUNTS = {} end
+                local increment = item_obj.Increment * (tonumber(item_pair[3]) or 1)
+                ITEM_COUNTS[item_code] = (ITEM_COUNTS[item_code] or 0) + increment
+                item_obj.AcquiredCount = ITEM_COUNTS[item_code]
             elseif item_obj.Type == "progressive_toggle" then
                 -- print("progressive_toggle")
                 if item_obj.Active then

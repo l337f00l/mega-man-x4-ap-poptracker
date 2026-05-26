@@ -46,7 +46,7 @@ ScriptHost:AddWatchForCode("space_port_watch", "spaceportcleared", MMX4_StateCha
 local WEAPON_WATCH_CODES = {
     "lightningweb", "risingfire", "twinslasher", "doublecyclone",
     "stockchargeupgrade", "plasmashotupgrade",
-    "playing_as_x", "playing_as_zero",
+    "playing_as_x", "playing_as_zero", "legsupgrade",
 }
 for _, code in ipairs(WEAPON_WATCH_CODES) do
     ScriptHost:AddWatchForCode("weapon_watch_" .. code, code, MMX4_StateChanged)

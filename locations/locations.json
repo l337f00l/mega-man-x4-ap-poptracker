@@ -476,6 +476,11 @@
                         "codes": "@Frost Walrus 1 Up (1)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -484,6 +489,11 @@
                         "codes": "@Frost Walrus Life Energy (3)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -492,6 +502,11 @@
                         "codes": "@Frost Walrus Life Energy (4)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -500,6 +515,11 @@
                         "codes": "@Frost Walrus Life Energy (5)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -508,6 +528,11 @@
                         "codes": "@Frost Walrus Life Energy (6)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -516,6 +541,11 @@
                         "codes": "@Frost Walrus Life Energy (7)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -524,6 +554,11 @@
                         "codes": "@Frost Walrus Life Energy (8)",
                         "visibility_rules": [
                             "pickupsanity"
+                        ],
+                        "access_rules": [
+                            "playing_as_x,lightningweb",
+                            "playing_as_x,legsupgrade",
+                            "playing_as_zero,doublecyclone"
                         ]
                     },
                     {
@@ -1743,7 +1778,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1766,7 +1803,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1789,7 +1828,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1812,7 +1853,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1835,7 +1878,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1858,7 +1903,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1881,7 +1928,9 @@
                     }
                 ],
                 "access_rules": [
-                    "frostwalrusstageaccess"
+                    "playing_as_x,lightningweb",
+                    "playing_as_x,legsupgrade",
+                    "playing_as_zero,doublecyclone"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
