@@ -809,9 +809,9 @@
                 "map_locations": [
                     {
                         "map": "Sky Lagoon Area 2",
-                        "x": 4741,
-                        "y": 123,
-                        "size": 30,
+                        "x": 4742,
+                        "y": 122,
+                        "size": 40,
                         "shape": "rect"
                     }
                 ],
@@ -829,9 +829,9 @@
                 "map_locations": [
                     {
                         "map": "Sky Lagoon Area 2",
-                        "x": 1165,
-                        "y": 181,
-                        "size": 30,
+                        "x": 1146,
+                        "y": 183,
+                        "size": 40,
                         "shape": "rect"
                     }
                 ],
@@ -851,7 +851,7 @@
                         "map": "Sky Lagoon Area 2",
                         "x": 3680,
                         "y": 713,
-                        "size": 30,
+                        "size": 40,
                         "shape": "rect"
                     }
                 ],
@@ -869,9 +869,9 @@
                 "map_locations": [
                     {
                         "map": "Sky Lagoon Area 2",
-                        "x": 3804,
+                        "x": 3810,
                         "y": 713,
-                        "size": 30,
+                        "size": 40,
                         "shape": "rect"
                     }
                 ],

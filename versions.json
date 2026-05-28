@@ -1,0 +1,21 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1.4",
+            "download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.4/mega-man-x4-ap-poptracker_0.1.4.zip",
+            "sha256": "C49ABA0E08286D72994F6D624F9F60C21E85BC3A12C94F12A0F6EE063831C304",
+            "changelog": [
+                "Fixed Sky Lagoon Area 2 map, missed a life energy image but the check was there",
+                "Auto-update support"
+            ]
+        },
+        {
+            "package_version": "0.1.3",
+            "download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.3/mega-man-x4-ap-poptracker_0.1.3.zip",
+            "sha256": "42873ee9e4e0fdee3f8fc4620b7235c49870781123dc8eecbbd737532afae303",
+            "changelog": [
+                "Previous release"
+            ]
+        }
+    ]
+}

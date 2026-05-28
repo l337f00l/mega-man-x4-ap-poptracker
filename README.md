@@ -8,6 +8,8 @@ This is a PopTracker pack for Mega Man X4 Archipelago. Created by TheRealSolidus
 
 Just download the lastest build and put in your PopTracker packs folder.
 
+Auto Update is now available.
+
 ## Features
 Detects and tracks all logic as of Mega Man X4 V0.1.2 including:
 

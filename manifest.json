@@ -1,14 +1,17 @@
 {
     "name": "Mega Man X4 Archipelago",
     "game_name": "Mega Man X4",
-    "package_version": "0.1.3",
+    "package_version": "0.1.4",
     "package_uid": "mega man x4_ap",
     "author": "l337f00l",
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",
-            "flags": ["ap"]
+            "flags": [
+                "ap"
+            ]
         }
     },
-    "min_poptracker_version": "0.31.0"
+    "min_poptracker_version": "0.31.0",
+    "versions_url": "https://raw.githubusercontent.com/l337f00l/mega-man-x4-ap-poptracker/main/versions.json"
 }
