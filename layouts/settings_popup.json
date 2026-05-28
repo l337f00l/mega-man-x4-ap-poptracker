@@ -27,17 +27,6 @@
                         "pickupsanity"
                     ]
                 ]
-            },
-            {
-                "type": "itemgrid",
-                "item_margin": "5,7",
-                "item_size": "200,50",
-                "h_alignment": "left",
-                "rows": [
-                    [
-                        "spaceportcleared"
-                    ]
-                ]
             }
         ]
     }

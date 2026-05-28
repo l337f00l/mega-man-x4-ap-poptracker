@@ -221,9 +221,30 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
 
-    -- Note: The MMX4 APWorld does not expose character or pickupsanity in slot data.
-    -- These must be set manually in the Settings popup.
-    -- Slot data contains: death_link, damage_link, energy_link, TotalLocations, Seed, Slot
+    -- Auto-detect character and pickupsanity from slot data
+    if slot_data ~= nil then
+        -- Character: 0 = X, 1 = Zero
+        local char_val = slot_data["character"]
+        if char_val ~= nil then
+            local x_obj = Tracker:FindObjectForCode("playing_as_x")
+            local zero_obj = Tracker:FindObjectForCode("playing_as_zero")
+            if char_val == 0 then
+                if x_obj then x_obj.Active = true end
+                if zero_obj then zero_obj.Active = false end
+            else
+                if x_obj then x_obj.Active = false end
+                if zero_obj then zero_obj.Active = true end
+            end
+        end
+        -- Pickupsanity
+        local ps_val = slot_data["pickupsanity"]
+        if ps_val ~= nil then
+            local ps_obj = Tracker:FindObjectForCode("pickupsanity")
+            if ps_obj then
+                ps_obj.Active = (ps_val == true or ps_val == 1)
+            end
+        end
+    end
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end
