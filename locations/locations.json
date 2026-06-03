@@ -180,7 +180,7 @@
                         "codes": "@Stock Charge Upgrade",
                         "access_rules": [
                             "playing_as_x,lightningweb",
-                            "playing_as_zero,doublecyclone"
+                            "playing_as_zero,soulbody"
                         ]
                     },
                     {
@@ -189,7 +189,7 @@
                         "codes": "@Plasma Shot Upgrade",
                         "access_rules": [
                             "playing_as_x,lightningweb",
-                            "playing_as_zero,doublecyclone"
+                            "playing_as_zero,soulbody"
                         ]
                     },
                     {
