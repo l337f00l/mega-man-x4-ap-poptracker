@@ -3,7 +3,7 @@
         
 		{
 			"package_version": "0.1.5",
-			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/v0.1.5/mega-man-x4-ap-poptracker_0.1.5.zip",
+			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.5/mega-man-x4-ap-poptracker_0.1.5.zip",
 			"sha256": "a0931d59efacc0aa521fdae325fdcc50f1fdb0c9aa4b4d33c00243a6eb7635d3",
 			"changelog": [
 				"Fixed logic for Zero and Arms upgrades in Storm Owl, Soul Body required now",
