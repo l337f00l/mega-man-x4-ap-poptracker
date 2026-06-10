@@ -478,9 +478,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -491,9 +490,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -504,9 +502,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -517,9 +514,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -530,9 +526,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -543,9 +538,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -556,9 +550,8 @@
                             "pickupsanity"
                         ],
                         "access_rules": [
-                            "playing_as_x,lightningweb",
-                            "playing_as_x,legsupgrade",
-                            "playing_as_zero,soulbody"
+                            "playing_as_x",
+                            "playing_as_zero"
                         ]
                     },
                     {
@@ -1778,9 +1771,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1803,9 +1795,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1828,9 +1819,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1853,9 +1843,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1878,9 +1867,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1903,9 +1891,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
@@ -1928,9 +1915,8 @@
                     }
                 ],
                 "access_rules": [
-                    "playing_as_x,lightningweb",
-                    "playing_as_x,legsupgrade",
-                    "playing_as_zero,soulbody"
+                    "playing_as_x",
+                    "playing_as_zero"
                 ],
                 "visibility_rules": [
                     "pickupsanity"
