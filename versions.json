@@ -2,9 +2,17 @@
     "versions": [
         
 		{
+			"package_version": "0.1.6",
+			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.6/mega-man-x4-ap-poptracker_0.1.6.zip",
+			"sha256": "9A0FFED14275253B0BA17E85D09FA37836E5D94E5C1AE311DC0EDFB6F4E24960",
+			"changelog": [
+				"Changed Frost Walrus 1-Up logic as you can get it with a dash jump as X or Zero"
+			]
+		},
+		{
 			"package_version": "0.1.5",
 			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.5/mega-man-x4-ap-poptracker_0.1.5.zip",
-			"sha256": "a0931d59efacc0aa521fdae325fdcc50f1fdb0c9aa4b4d33c00243a6eb7635d3",
+			"sha256": "abe202aa7430a3feaeb4b482fbd08cd42a65efb91d9ab5920f276c5b7ae1e0d4",
 			"changelog": [
 				"Fixed logic for Zero and Arms upgrades in Storm Owl, Soul Body required now",
 				"Fixed logic for Zero and multiple checks in Frost Walrus"
