@@ -4,7 +4,7 @@
 		{
 			"package_version": "0.1.6",
 			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.6/mega-man-x4-ap-poptracker_0.1.6.zip",
-			"sha256": "9A0FFED14275253B0BA17E85D09FA37836E5D94E5C1AE311DC0EDFB6F4E24960",
+			"sha256": "f452140390d5304913b050e617b99cfc11899c90ae5963d758e796757429cb43",
 			"changelog": [
 				"Changed Frost Walrus 1-Up logic as you can get it with a dash jump as X or Zero"
 			]
