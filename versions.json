@@ -4,7 +4,7 @@
 		{
 			"package_version": "0.1.7",
 			"download_url": "https://github.com/l337f00l/mega-man-x4-ap-poptracker/releases/download/V0.1.7/mega-man-x4-ap-poptracker_0.1.7.zip",
-			"sha256": "D1E46102C40C4A2B0BC212736C64B0FD079246932AFAB74DDF64D48A3A17968C",
+			"sha256": "9d49bd9eb6741f874b575ca7ef79db55b24156d8d8d23b33e2488df8a932af2a",
 			"changelog": [
 				"Fixed a logic issue with Arms Upgrade to get Magma Dragoon Body Armor with X"
 			]
